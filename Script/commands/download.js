@@ -2,7 +2,7 @@ module.exports.config = {
   name: "download",
   version: "1.0.1",
   hasPermssion: 2,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "𓄂͢࿑ 𝗖𝗜𝗥𝗖𝗟𝗘 𝗕𝗢𝗧 𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 🟡",
   description: "Download files",
   commandCategory: "System",
   usages: "download <link> || download <path> <link>",
