@@ -2,7 +2,7 @@ module.exports.config = {
     name: "joinNoti",
     eventType: ["log:subscribe"],
     version: "1.0.1",
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+    credits: "MAMUN",
     description: "Notification of bots or people entering groups with random gif/photo/video",
     dependencies: {
         "fs-extra": "",
@@ -41,10 +41,10 @@ ________________________\n\n𝐓𝐨 𝐯𝐢𝐞𝐰 𝐚𝐧𝐲 𝐜𝐨𝐦�
 
 ${global.config.PREFIX}Help\n${global.config.PREFIX} Manu
 
-𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 :𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️
+𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 :  𓄂͢࿑𝗖𝗜𝗥𝗖𝗟𝗘 𝗕𝗢𝗧 🟡
 
 \n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆
-`, attachment: fs.createReadStream(__dirname + "/cache/ullash.mp4")} ,threadID));
+`, attachment: fs.createReadStream(__dirname + "/cache/")} ,threadID));
     }
     else {
         try {
@@ -74,7 +74,7 @@ ${global.config.PREFIX}Help\n${global.config.PREFIX} Manu
  
             if (existsSync(path)) mkdirSync(path, { recursive: true });
  
-            const randomPath = readdirSync(join(__dirname, "cache", "joinGif", "randomgif"));
+            const randomPath = readdirSync(join(__dirname, "cache", "", ""));
  
             if (existsSync(pathGif)) formPush = { body: msg, attachment: createReadStream(pathvideo), mentions }
             else if (randomPath.length != 0) {
